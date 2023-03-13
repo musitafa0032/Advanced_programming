@@ -1,4 +1,5 @@
-class Node:
+#
+class Node: 
     def __init__(self,word,word_fre,next_node=None):
         self.word = word
         self.word_fre = word_fre
@@ -8,7 +9,7 @@ class FreqLinkedList:
     def __init__(self):
         self.head = None
 
-
+#course work test
     def addWord(self,word):
         new_node = Node(word,1)
         if self.head is None or self.head.word > new_node.word:
